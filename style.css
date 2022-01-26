@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.container{
+    padding: 1.5%;
+    background-color: red;
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    margin-top: 20vh;
+    border-radius: 15px;
+}
+
+.etherium-image{
+    border-radius: 8px;
+}
+
+h1{
+    font-size: 22px;
+    padding: 5% 0;
+    font-weight: 600;
+}
+
+.info{
+    font-weight: 300;
+    margin-bottom: 8%;
+    color: hsl(215, 51%, 70%);
+}
+
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+
+
+.icon{
+    color: cyan;
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+
+}
+
+.icon img{
+    margin-right: 7px;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+
+.time img{
+    margin-right: 7px;
+}
+
+.bottom{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+    font-size: 16px;
+}
+
+.bottom img{
+    margin-right: 15px;
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 100%;
+
+
+}
+
+hr{
+    color: hsl(215, 32%, 27%);
+}
+.name{
+    color: white;
+    padding-left: 5px;
+}
+
+
+
