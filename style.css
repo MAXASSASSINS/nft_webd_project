@@ -13,6 +13,7 @@ body{
     font-size: 18px;
 }
 
+
 .container{
     padding: 1.5%;
     background-color: red;
@@ -20,6 +21,23 @@ body{
     width: 300px;
     margin-top: 20vh;
     border-radius: 15px;
+}
+
+.main-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eye{
+    position: absolute;
+    opacity: 0;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0.527);
 }
 
 .etherium-image{
@@ -46,8 +64,6 @@ h1{
     font-size: 16px;
 }
 
-
-
 .icon{
     color: cyan;
     display: flex;
@@ -72,7 +88,7 @@ h1{
 }
 
 .bottom{
-    margin: 20px 0;
+    margin: 15px 0;
     display: flex;
     align-items: center;
     color: hsl(215, 51%, 70%);
@@ -84,8 +100,6 @@ h1{
     width: 30px;
     border: 1px solid white;
     border-radius: 100%;
-
-
 }
 
 hr{
@@ -95,6 +109,28 @@ hr{
     color: white;
     padding-left: 5px;
 }
+
+
+h1:hover{
+    color: cyan;
+    cursor: pointer;
+}
+
+.name:hover{
+    color:cyan;
+    cursor : pointer;
+}
+
+.main-image:hover{
+    cursor: pointer;
+}
+
+
+.main-image:hover .eye{
+    opacity: 1;
+}
+
+
 
 
 
